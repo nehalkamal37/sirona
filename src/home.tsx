@@ -129,7 +129,7 @@ function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <img src='logo.jpg' style={{width:63}}></img>
-            <span className="text-xl font-bold">Dintist Supplay Sirona </span>
+            <span className="text-xl font-bold">Dentsply Sirona </span>
           </div>
           <p className="text-gray-400">© 2025 Sirona Clinic. All rights reserved.</p>
         </div>
