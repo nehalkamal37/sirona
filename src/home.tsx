@@ -25,15 +25,15 @@ function Home() {
 <section className="container mx-auto px-4 py-16">
   <div className="grid md:grid-cols-2 gap-12 items-center">
     <div>
-      <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        Your Health Is Our Priority
-      </h1>
+    
     
       {/* SIRONA CEREC Primescan milling machine details */}
       <div className="mt-8 p-4 bg-gray-100 rounded-lg shadow-md">
         <p className="text-base font-semibold text-gray-800 mb-1">
           SIRONA CEREC Primescan milling machine
         </p>
+        <p className="text-sm text-gray-700 mb-1">SN: 85746C2</p>
+        <img src='2.jpg' style={{width:99}}></img>
         <p className="text-sm font-semibold text-gray-800 mt-2">Dentsply Sirona</p>
         <p className="text-sm text-gray-700">Sirona Dental Systems</p>
         <p className="text-sm text-gray-700 font-medium">MADE IN GERMANY</p>
@@ -128,8 +128,8 @@ function Home() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <Heart className="h-6 w-6" />
-            <span className="text-xl font-bold">Sirona Clinic</span>
+            <img src='logo.jpg' style={{width:63}}></img>
+            <span className="text-xl font-bold">Dintist Supplay Sirona </span>
           </div>
           <p className="text-gray-400">© 2025 Sirona Clinic. All rights reserved.</p>
         </div>
